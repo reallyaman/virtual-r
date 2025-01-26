@@ -1,5 +1,5 @@
 import video1 from "../assets/video1.mp4";
-// import video2 from "../assets/video2.mp4";/
+import video2 from "../assets/video2.mp4";
 
 export const HeroSection = () => {
     return (
@@ -37,14 +37,14 @@ export const HeroSection = () => {
             loop
             muted
           ></video>
-          {/* <video
+          <video
             className=" rounded-md w-full lg:w-1/2 md:w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4"
             src={video2}
             type="video/mp4"
             autoPlay
             loop
             muted
-          ></video> */}
+          ></video>
         </div>
         <div></div>
       </div>
