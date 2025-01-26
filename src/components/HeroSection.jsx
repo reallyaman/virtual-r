@@ -1,12 +1,12 @@
 import video1 from "../assets/video1.mp4";
-import video2 from "../assets/video2.mp4";
+// import video2 from "../assets/video2.mp4";/
 
 export const HeroSection = () => {
     return (
-      <div class="flex flex-col items-center mt-6 lg:mt-20 px-8 aos-init aos-animate ">
-        <h1 data-aos="fade-up" class="text-4xl sm:text-6xl  lg:text-7xl text-center tracking-wide">
+      <div className="flex flex-col items-center mt-6 lg:mt-20 px-8 aos-init aos-animate ">
+        <h1 data-aos="fade-up" className="text-4xl sm:text-6xl  lg:text-7xl text-center tracking-wide">
           VirtualR build tools{" "}
-          <span class="bg-gradient-to-r from-orange-500 to-red-800  text-transparent bg-clip-text">
+          <span className="bg-gradient-to-r from-orange-500 to-red-800  text-transparent bg-clip-text">
             {" "}
             for developers
           </span>
@@ -32,19 +32,19 @@ export const HeroSection = () => {
             className=" rounded-md w-full lg:w-1/2 md:w-1/2
              border border-orange-700 shadow-orange-400 mx-2 my-4"
             src={video1}
-            typeof="video/mp4"
+            type="video/mp4"
             autoPlay
             loop
             muted
           ></video>
-          <video
+          {/* <video
             className=" rounded-md w-full lg:w-1/2 md:w-1/2 border border-orange-700 shadow-orange-400 mx-2 my-4"
             src={video2}
-            typeof="video/mp4"
+            type="video/mp4"
             autoPlay
             loop
             muted
-          ></video>
+          ></video> */}
         </div>
         <div></div>
       </div>
